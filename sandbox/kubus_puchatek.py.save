@@ -1,0 +1,15 @@
+#import requests
+
+#link = 'http://danielrusak.pl/kubus_puchatek'
+#kubus_raw = requests.get(link)
+#print(kubus_raw)
+
+
+import requests
+
+link = 'http://danielrusak.pl/kubus_puchatek'
+kubus_raw = requests.get(link)
+kubus_text = kubus_raw.text
+print(kubus_tex s in [kubus_text]:
+	if s == 'kubus':	
+		print(s) 
